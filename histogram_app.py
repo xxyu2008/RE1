@@ -6,9 +6,14 @@ import scipy
 x1 = np.random.randn(200) - 2
 x2 = np.random.randn(200)
 x3 = np.random.randn(200)
-
+x4 = np.random.randn(200) - 2
+x5 = np.random.randn(200)
+x6 = np.random.randn(200)
+x7 = np.random.randn(200)
+#变化于此
 # Group data together
 hist_data = [x1, x2, x3]
+hist_data = [x4, x5, x6]
 
 group_labels = ['Group 1', 'Group 2', 'Group 3']
 
